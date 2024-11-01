@@ -1,0 +1,167 @@
+# Copyright (C) 2022 Whitepay
+# This file is distributed under the Copyright 2021-2022 Whitepay.
+msgid ""
+msgstr ""
+"Project-Id-Version: Whitepay for WooCommerce 3.0.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-05T16:53:37+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: whitepay-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Whitepay for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://whitepay.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Kultprosvet"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kultprosvet.net/"
+msgstr ""
+
+#: whitepay-for-woocommerce.php:64
+msgid "Pending blockchain payment"
+msgstr ""
+
+#: whitepay-for-woocommerce.php:90
+msgid "Pending blockchain payment"
+msgstr ""
+
+#: whitepay-for-woocommerce.php:107
+msgid "Whitepay Payment Data"
+msgstr ""
+
+#: whitepay-for-woocommerce.php:126
+msgid "Whitepay Payment Data"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:35
+msgid "Proceed to Whitepay"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:37
+msgid "Whitepay Payment Getaway allows your WooCommerce shop customers to pay for their orders in cryptocurrencies: Bitcoin, Ethereum, Litecoin, etc. If you do not currently have a Whitepay account, you can set one up on <a href=\"%s\">Whitepay.com</a>"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:74
+msgid "Enable/Disable"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:75
+msgid "Enable Whitepay payment plugin"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:81
+msgid "Title"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:83
+msgid "This is the title that the user will see as the name of the payment method on the checkout page."
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:84
+msgid "Cryptocurrencies via Whitepay"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:88
+msgid "Description"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:90
+msgid "Description of the payment method that will be displayed to the user on the checkout page."
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:91
+msgid "Pay with cryptocurrency easily and quickly."
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:95
+msgid "Slug"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:97
+msgid "You can get your Slug by creating a page in the <a href="%s">Payment Pages</a> section of your Whitepay account"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:95
+msgid "Token"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:97
+msgid "You can manage your Whitepay Token within the <a href=\"%s\">Whitepay Settings Tokens page</a>"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:107
+msgid "Webhook Token"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:110
+msgid "Using a webhook will allow you to receive data on changes in order status (paid, cancelled) from Whitepay. For this you need to:"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:112
+msgid "1. On the Whitepay Payment Pages section, on the \"Webhook\" tab, insert in the \"Webhook address\" field the following URL: %s"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:114
+msgid "2. Click \"Save\", copy Webhook Token and paste it in field \"Webhook Token\" on this page."
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:116
+msgid "3. On the Whitepay Settings Tokens page, under Webhook settings, check which events you want to transmit."
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:127
+msgid "Debug Log"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:128
+msgid "Enable/Disable logging"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:130
+msgid "Log Whitepay API events inside %s"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:218
+msgid "Whitepay order was successfully completed"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:222
+msgid "Whitepay order is declined"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:226
+msgid "Whitepay order is partially paid"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:237
+msgid "Authentication attempt on Whitepay failed. Check Slug and Token in the Whitepay Getaway plugin settings"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:244
+msgid "Your store currency not supported by Whitepay. Supported currencies: %s"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:247
+msgid "Order amount must be at least %d %s"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:250
+msgid "Order amount may not be greater than %d %s"
+msgstr ""
+
+#: class-wc-gateway-whitepay.php:326
+msgid "Whitepay order changed status to %s"
+msgstr ""
